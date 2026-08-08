@@ -38,7 +38,7 @@ class Solution {
                     if (i == x1 || i == x2 || j == y1 || j == y2) {
                         map[i][j] = 1;
                     } else {
-                        map[i][j] = 2; // 내부는 2로 지정
+                        map[i][j] = 2;
                     }
                 }
             }
