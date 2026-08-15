@@ -22,12 +22,7 @@ class Solution {
         }
 
         // 마지막 행의 4개 열 중 가장 큰 값이 최댓값
-        int max = 0;
         int lastRow = land.length - 1;
-        for (int i = 0; i < 4; i++) {
-            max = Math.max(max, land[lastRow][i]);
-        }
-        
-        return max;
+        return Math.max(land[lastRow][0], Math.max(land[lastRow][1], Math.max(land[lastRow][2], land[lastRow][3])));
     }
 }
