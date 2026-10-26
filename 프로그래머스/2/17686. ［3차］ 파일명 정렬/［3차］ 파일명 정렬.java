@@ -34,7 +34,6 @@ class Solution {
          * splitName[][2]: TAIL
          */
         String[][] splitName = new String[len][3];
-        StringBuilder sb = new StringBuilder();
         
         // HEAD, NUMBER, TAIL 나누기
         for (int i = 0; i < len; i++) {
